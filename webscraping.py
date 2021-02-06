@@ -49,7 +49,6 @@ def build_rank(type):
 option = Options()
 option.headless = True
 driver = webdriver.Firefox(options=option)
-
 driver.get(url)
 driver.implicitly_wait(10)
 
